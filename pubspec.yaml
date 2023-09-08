@@ -1,0 +1,63 @@
+name: flutter_application_lectine_pal
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.2
+  flutter_riverpod: ^2.3.7
+  loading_indicator: ^3.1.1
+  path: ^1.8.3
+  path_provider: ^2.1.0
+  shared_preferences: ^2.2.0
+  sqflite: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+## command flutter pub run flutter_launcher_icons  
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/carrot@2x.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg
+    - assets/images/nadine-primeau--ftWfohtjNw-unsplash.jpg
+    - assets/images/randy-fath-5aJVJvJ9rG8-unsplash.jpg
+    - assets/images/undraw_Completing_re_i7ap.png
+    - assets/images/undraw_Welcoming_re_x0qo.png
+    - assets/images/undraw_Profile_data_re_v81r.png
+    - assets/images/louis-hansel-aKkfva3IdTw-unsplash.jpg
+    - assets/images/mockup-graphics-XCSlkD0KNkk-unsplash.jpg
+    - assets/images/naveed-pervaiz-IlnF2g_3tpY-unsplash.jpg
+    - assets/images/roberta-sorge-uOBApnN_K7w-unsplash.jpg
+    - assets/images/maddi-bazzocco-UhrHTmVBzzE-unsplash.jpg
+    - assets/images/pesce-huang-pGJBkuqN27k-unsplash.jpg     
+    - assets/images/anita-jankovic-c7PT4PZMcNA-unsplash.jpg
+    - assets/logo/carrot@2x.png  
+    
+    
+    
+
+  fonts:
+     - family: Quicksand
+       fonts:
+        - asset: assets/fonts/Quicksand-VariableFont_wght.ttf
+     - family: Comfortaa
+       fonts:
+        - asset: assets/fonts/Comfortaa.ttf
